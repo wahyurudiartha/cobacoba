@@ -1,0 +1,97 @@
+    body{
+    background-image:  url("http://primaradio.co.id/wp-content/uploads/2019/12/Background-web-website-prima-2019-2.jpg") ;
+    background-size:cover;
+    }
+    .navi {
+        height: 10px;
+    }
+    .navi a:hover{
+        background-color: rgba(253, 179, 19, 0.835);
+        
+    }
+    img.pp{
+        border-radius: 10%;
+        box-shadow:15px 15px 50px black;
+        border: 2px solid rgb(255, 174, 0);
+        transition: transform 0.3s;
+    }
+    img.pp:hover{
+    transform: scale(1.1);
+    } 
+
+    *{
+        font-family:Arial, Helvetica, sans-serif;
+        color:white;
+        text-shadow: 1.7px 1.7px black;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    table{
+        border:rgb(255, 208, 0);
+        border-radius: 2%;
+        border-style: solid;
+        box-shadow:15px 15px 50px black;
+        padding: 10px;
+    }
+    .sosmed {
+        padding: 5px;
+
+    }
+    .sosmed :hover, .undiksha:hover , .si:hover, .kampusmerdeka:hover{
+        transform: scale(1.1);
+    }
+    td{
+        transition: transform 0.3s;
+    }
+    td:hover {background-color:rgb(20, 162, 250);
+        transform: scale(1.03);
+    }
+    h1{
+        text-shadow:3px 3px black;
+        transition: transform 0.3s;
+    }
+    h2{
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-shadow:3px 3px black;
+        transition: transform 0.3s;
+    }
+    h2:hover, h1:hover{
+        transform: scale(1.03);
+    }
+    .undiksha{
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        margin-right: 10px;
+        transition: transform 0.3s;
+    }
+    .si{
+        position: absolute;
+        top: 15px;
+        right: 90px;
+        margin-right: 10px;
+        transition: transform 0.3s;
+    }
+    .kampusmerdeka{
+        position:absolute;
+        top: 15px;
+        margin-left: 10px;
+        float: left;
+        transition: transform 0.3s;
+    }
+    .welcome{
+        height: 140px;
+        background-image: url("https://i.pinimg.com/originals/50/4c/41/504c41fa567444e084f1b913eacfdfad.png");
+        background-size:cover;
+        background-position: 0 -37px;
+    }
+    .footer{
+        text-align: center;
+        font-size: 12px;
+        text-shadow: none;
+        color:whitesmoke;
+        font-weight: none;
+        padding: 20px;
+        margin-top: 50px;
+        
+    }
